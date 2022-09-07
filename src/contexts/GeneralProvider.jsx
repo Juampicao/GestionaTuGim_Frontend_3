@@ -17,6 +17,8 @@ import { refrescarArray } from "../helpers/funciones";
 const GeneralContext = createContext();
 
 const GeneralProvider = ({ children }) => {
+  console.log(`La VITE_API URL ES: ${import.meta.env.VITE_API_URL}`);
+
   const navigate = useNavigate();
   // // Datos configuracion & Autenticacion
   const token = localStorage.getItem("token");

@@ -5,7 +5,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import useGeneral from "../../../hooks/useGeneral";
 import { formatearFecha } from "../../../helpers/funciones";
 import { botonDivStyles } from "../../../helpers/styles";
-import IconoEjercicio from "../../../img/IconoEjercicioPechoplano.png";
+// import IconoEjercicio from "../../../img/IconoEjercicioPechoplano.png";
 
 const Rutina = ({ rutina }) => {
   const {
@@ -25,7 +25,7 @@ const Rutina = ({ rutina }) => {
       <tr>
         <td>
           <img
-            src={IconoEjercicio}
+            // src={IconoEjercicio}
             className="h-6 mx-auto"
             alt="icono ejercicio"
           />
