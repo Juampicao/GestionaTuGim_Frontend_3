@@ -1,0 +1,19 @@
+div#is-relative{
+  max-width: 420px;
+  position: relative;
+}
+
+/* El icono debe ser "position: absolute"
+ * Ademas le damos un "display: block" y lo posicionamos */
+#icon{
+  position: absolute;
+  display: block;
+  bottom: .5rem;
+  right: 1rem;
+  
+  user-select: none;
+  cursor: pointer;
+}
+input.input{
+  padding-right: 2.5rem;
+}
