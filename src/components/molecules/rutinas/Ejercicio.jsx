@@ -6,7 +6,7 @@ import useGeneral from "../../../hooks/useGeneral";
 import { formatearFecha } from "../../../helpers/funciones";
 import { botonDivStyles } from "../../../helpers/styles";
 
-import IconoEjercicio from "../../../img/IconoEjercicioPechoplano.png";
+// import IconoEjercicio from "../../../img/IconoEjercicioPechoplano.png";
 const Ejercicio = ({ ejercicio }) => {
   const {} = useGeneral();
 
@@ -26,7 +26,7 @@ const Ejercicio = ({ ejercicio }) => {
         {/* <td>{_id ? _id : "No hay ninguna rutina "}</td> */}
         <td>
           <img
-            src={IconoEjercicio}
+            // src={IconoEjercicio}
             alt="icono ejercicio"
             className="h-8 mx-auto"
           />
